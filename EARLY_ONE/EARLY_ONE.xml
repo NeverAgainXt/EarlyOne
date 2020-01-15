@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EARLY_ONE</name>
+    </assembly>
+    <members>
+        <member name="T:EARLY_ONE.Controllers.WeatherForecastController">
+            <summary>
+            天气控制器
+            </summary>
+        </member>
+        <member name="M:EARLY_ONE.Controllers.WeatherForecastController.#ctor(Microsoft.Extensions.Logging.ILogger{EARLY_ONE.Controllers.WeatherForecastController})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:EARLY_ONE.Controllers.WeatherForecastController.Get">
+            <summary>
+            获取此后5天天气预报
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:EARLY_ONE.Program">
+            <summary>
+            程序入口
+            </summary>
+        </member>
+        <member name="M:EARLY_ONE.Program.Main(System.String[])">
+            <summary>
+            主函数
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:EARLY_ONE.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            创建Host
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EARLY_ONE.Startup">
+            <summary>
+            Api启动类
+            </summary>
+        </member>
+        <member name="P:EARLY_ONE.Startup.apiName">
+            <summary>
+            全局变量-API名
+            </summary>
+        </member>
+        <member name="M:EARLY_ONE.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            启动方法
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:EARLY_ONE.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EARLY_ONE.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:EARLY_ONE.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="T:EARLY_ONE.WeatherForecast">
+            <summary>
+            天气预报实体类
+            </summary>
+        </member>
+        <member name="P:EARLY_ONE.WeatherForecast.Date">
+            <summary>
+            日期
+            </summary>
+        </member>
+        <member name="P:EARLY_ONE.WeatherForecast.TemperatureC">
+            <summary>
+            气温
+            </summary>
+        </member>
+        <member name="P:EARLY_ONE.WeatherForecast.TemperatureF">
+            <summary>
+            气温（华氏度）
+            </summary>
+        </member>
+        <member name="P:EARLY_ONE.WeatherForecast.Summary">
+            <summary>
+            摘要
+            </summary>
+        </member>
+    </members>
+</doc>
